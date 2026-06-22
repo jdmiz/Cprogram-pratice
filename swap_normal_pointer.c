@@ -1,5 +1,5 @@
 #include <stdio.h>
-    int a( num1, num2){
+    int a( int num1,int num2){
    int swap = num1;
 num1= num2;
    num2= swap;
