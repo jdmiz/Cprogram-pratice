@@ -19,7 +19,7 @@ char name[50];
  printf("enter a name");
  scanf("%s",name);
 //write in file
-fprintf(fp," id is%d and name is %s \n",id,name);
+fprintf(fp," id is %d and name is %s \n",id,name);
 //close
 fclose(fp);
 //toread
